@@ -25,10 +25,9 @@ void bfs(vector<int> g[],int dist[],int start,int n){
 }
 
 int main(){
-    int T;// no of test casses
-    cin>>T;
-
-    while (T--)
+    int Test;
+    cin>>Test;
+    while (Test--)
     {
         int n,m;
         cin>>n>>m; // number of nodes and edges in the graph
