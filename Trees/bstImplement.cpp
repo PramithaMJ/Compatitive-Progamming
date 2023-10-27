@@ -16,7 +16,6 @@ Node* createNode(int data){
     return newNode;
 }
 
-
 int main() {
 
     Node* root = createNode(1);
@@ -27,6 +26,7 @@ int main() {
     root->left->right = createNode(5);
     root->right->left = createNode(6);
     root->right->right=createNode(7);
+    root->right->right=createNode(8);
 
     root->left->left->left =createNode(9);
     root->right->right->left = createNode(15);

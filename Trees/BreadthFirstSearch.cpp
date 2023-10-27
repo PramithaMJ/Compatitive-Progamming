@@ -23,14 +23,12 @@ void bfs(vector<int> g[],int dist[],int start,int n){
                 q.push(i);
     }
 }
-
 int main(){
     int Test;
     cin>>Test;
     while (Test--)
     {
         int n,m;
-        cin>>n>>m; // number of nodes and edges in the graph
 
         vector<int> g[n];
 
@@ -59,5 +57,6 @@ int main(){
         }
         cout<<endl;        
     }
+    
     return 0;
 }
